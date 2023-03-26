@@ -1,0 +1,14 @@
+
+<header class="main_header">
+  <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% else %}I<span>DEV</span>{% endif %}</a>
+    <ul class"main_menu">
+    <li class="nav-item">
+	<a href="{{site.baseurl}}/about/">About</a>
+	</li>
+	<li class="nav-item">
+    <a href="{{site.baseurl}}/contact/">Contact</a>
+	</li>
+	{% include search-lunr.html %}
+	</ul>
+    </nav>
+</header> <!-- End Section Header -->
